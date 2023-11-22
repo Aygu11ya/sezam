@@ -1,0 +1,84 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    background: url(../img/1.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+h1{ 
+    color: red;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    margin: 55px 0px 0px;
+    width: auto;
+    transition: 300ms;
+}
+ h1:hover{
+    color: limegreen;
+}  
+.block-img{
+    text-align: center;
+    background: white;
+   outline: 3px red solid;
+    padding: 20px;
+    margin: 30px 550px;
+    transition: 200ms;
+}
+.block-img:hover{
+    background: rgb(0, 128, 2);
+}
+p{
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 35px;
+    padding: 25px;
+    margin: 20px 15px 0px;
+}
+p:hover{
+    color: red;
+}
+a{
+    text-align: right;
+    font-size: 36px;
+    color: red;
+    padding: 15px 200px;
+    margin: 10px ; 
+}
+a:hover{
+    color: aliceblue;
+}
+.video{
+    text-align: center;
+    padding: 25px;
+    margin: 10px 25px 25px;
+}
+
+h2{
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    font-size: 35px;
+    margin: -5px;
+    transition: 200ms;
+}
+h2:hover{
+    color: green;
+}
+ .next{
+        font-size: 35px;
+        color: red;
+        padding: 25px 50px 25px 1000px;
+        margin: 25px 15px 25px 300px; 
+       }
+.next:hover{
+           color: aliceblue;
+       }
+    
+
+
+
+
